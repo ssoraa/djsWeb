@@ -1,0 +1,36 @@
+{
+  "name": "discord.js-website-new",
+  "version": "2.1.0",
+  "description": "The website housing documentation for discord.js",
+  "author": "Amish Shah <amishshah.2k@gmail.com>",
+  "contributors": [
+    "Schuyler Cebulskie <Gawdl3y@gawdl3y.com>"
+  ],
+  "private": true,
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "serve:production": "vue-cli-service serve --mode production",
+    "build": "vue-cli-service build",
+    "lint": "vue-cli-service lint"
+  },
+  "dependencies": {
+    "core-js": "^2.6.5",
+    "fuse.js": "^3.4.5",
+    "konami-code-js": "^0.8.1",
+    "marked": "^0.7.0",
+    "semver": "^6.3.0",
+    "vue": "^2.6.10",
+    "vue-router": "^3.0.3"
+  },
+  "devDependencies": {
+    "@vue/cli-plugin-babel": "^3.11.0",
+    "@vue/cli-plugin-eslint": "^3.11.0",
+    "@vue/cli-service": "^3.11.0",
+    "babel-eslint": "^10.0.1",
+    "eslint": "^5.16.0",
+    "eslint-plugin-vue": "^5.0.0",
+    "sass": "^1.18.0",
+    "sass-loader": "^7.1.0",
+    "vue-template-compiler": "^2.6.10"
+  }
+}
